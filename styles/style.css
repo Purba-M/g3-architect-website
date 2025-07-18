@@ -18,6 +18,11 @@
 .text-light-gray{
     color:#727272;
 }
+.section-title{
+    font-size: 2.8rem;
+    font-weight: 700;
+  
+}
 main{
     max-width: 1440px;
     margin:0 auto;
@@ -87,6 +92,28 @@ main >section{
     width: 100%;
     
 }
+
+
+/* Features secgtion */
+.features{
+    display: flex;
+    gap: 120px;
+}
+#features-section-title{
+  border-left: 5px solid #ff900e;
+  padding-left: 20px;
+}
+.feature-card{
+    padding: 30px;
+    box-shadow: 0 4px 30px 0 rgba(0, 0, 0, 0.06);
+    margin-bottom: 20px;
+}
+.feature-card .feature-title{
+    font-weight: 600;
+    font-size: 1.25rem;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
 /* Fact related everything */
 .facts-container{
     display: grid;
@@ -122,6 +149,9 @@ main >section{
 }
 .fact-description{
     max-width:540px;
+    font-size: 1rem;
+    line-height: 1.6;
+    margin-top: 24px;
 }
 
 /* Team related */
@@ -138,13 +168,12 @@ main >section{
     margin-left: 7.12rem;
     max-width: 530px;
 }
-.section-title{
-    font-size: 2.8rem;
-    font-weight: 700;
-}
+
 #quick-list{
     font-weight: 500;
 }
+/* SECTION RELATED */
+
 /* Sponsor Related */
 .sponsor-info{
     max-width: 540px;
